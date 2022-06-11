@@ -69,9 +69,9 @@ async def hype_toggle_query(ctx):
     
     global hype_onoff
     if trig_stat_fetch == 1:
-        print("Hype is on!")
+        print("Hype is on! yay")
     elif trig_stat_fetch == 0:
-        print("Hype is off")
+        print("Hype is off sorry")
 
 @client.command()
 async def rickroll_JT(ctx):
